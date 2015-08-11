@@ -1,2 +1,5 @@
 First test:
-  taking single character user input string "Banana" and printing "Banana" to page.
+  taking single character user input string "Banana" and printing lower cased "banana" to page.
+
+Second test:
+    taking string of words into an empty input array, lower casing each word, adding each word back to output array.
