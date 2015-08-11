@@ -9,7 +9,7 @@ class Anagram
         foreach ($input_array_of_words as $word) {
             array_push($output_makeanagram, strtolower($word));
         }
-        return implode(", ", $output_makeanagram);
+        return implode(", ", $output_makeanagram); 
     }
 }
 
