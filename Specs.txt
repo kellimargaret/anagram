@@ -1,3 +1,33 @@
+SPECS
+
+1. a letter is equal to itself
+input: a, a
+output: a
+
+2. a word is equal to it's inverse
+input: on, no
+output: no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Original specs
+
+
 First test:
   taking single character user input string "Banana" and printing lower cased "banana" to page.
 
@@ -9,11 +39,3 @@ Third test:
         - make two separate variables?
         - split array into individual letters, compare against
           single input word?
-
-1. a letter is equal to itsel
-input: a, a
-output: a
-
-2. a word is equal to it's inverse
-input: on, no
-output: no

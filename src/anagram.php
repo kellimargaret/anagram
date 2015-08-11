@@ -10,6 +10,7 @@ class Anagram
         }
         return $output;
     }
+    
 }
 
 ?>
