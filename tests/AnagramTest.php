@@ -15,7 +15,7 @@
             $result = $test_Anagram->makeAnagram($input);
 
             //Assert
-            $this->assertEquals("Banana", $result);
+            $this->assertEquals("banana", $result);
         }
     }
 
