@@ -2,18 +2,14 @@
 
 class Anagram
 {
-    function makeAnagram($input_anagram)
+    function makeAnagram($input_anagram, $input_list)
     {
-        $input_array_of_words = explode(", ", $input_anagram);
-        $output_makeanagram = array();
-        foreach ($input_array_of_words as $word) {
-            array_push($output_makeanagram, strtolower($word));
+        $output = "";
+        if($input_anagram === $input_list) {
+            $output = $input_list;
         }
-        return implode(", ", $output_makeanagram); 
+        return $output;
     }
 }
-
-
-
 
 ?>

@@ -9,17 +9,34 @@
         {
             //Arrange
             $test_Anagram = new Anagram;
-            $input = "Banana";
+            $input = "B";
+            $input2 = "B";
 
             //Act
-            $result = $test_Anagram->makeAnagram($input);
+            $result = $test_Anagram->makeAnagram($input, $input2);
 
             //Assert
-            $this->assertEquals("banana", $result);
+            $this->assertEquals("B", $result);
         }
-    }
 
-        
+        function test_makeAnagram_specTwo()
+        {
+            //Arrange
+            $test_Anagram = new Anagram;
+            $input = "on";
+            $input2 = "no";
+
+            //Act
+            $result = $test_Anagram->makeAnagram($input, $input2);
+
+            //Assert
+            $this->assertEquals("no", $result);
+        }
+
+
+
+
+    }
 
 
 ?>

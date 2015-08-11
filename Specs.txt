@@ -3,3 +3,17 @@ First test:
 
 Second test:
     taking string of words into an empty input array, lower casing each word, adding each word back to output array.
+
+Third test:
+    (?) compare input word against input list of words
+        - make two separate variables?
+        - split array into individual letters, compare against
+          single input word?
+
+1. a letter is equal to itsel
+input: a, a
+output: a
+
+2. a word is equal to it's inverse
+input: on, no
+output: no
