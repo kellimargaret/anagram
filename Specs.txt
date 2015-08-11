@@ -1,0 +1,2 @@
+First test:
+  taking single character user input string "B" and printing "B" to page.
