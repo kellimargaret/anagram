@@ -8,7 +8,9 @@ output: a
 input: on, no
 output: no
 
-
+3. a word is an exact match while in a list of words
+input: on, (no is)
+output: no
 
 
 

@@ -33,7 +33,19 @@
             $this->assertEquals("no", $result);
         }
 
+        function test_makeAnagram_specThree()
+        {
+            //Arrange
+            $test_Anagram = new Anagram;
+            $input = "on";
+            $input2 = "no is";
 
+            //Act
+            $result = $test_Anagram->makeAnagram($input, $input2);
+
+            //Assert
+            $this->assertEquals("no", $result);
+        }
 
 
     }
