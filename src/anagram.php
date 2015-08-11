@@ -2,9 +2,9 @@
 
   class Anagram
   {
-    function makeTitleCase($input_anagram)
+    function makeAnagram($input_anagram)
     {
-      
+
     }
   }
 
